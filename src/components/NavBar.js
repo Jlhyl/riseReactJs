@@ -1,8 +1,7 @@
-//const App =()=> "Hola Mundo con JSX, Arrow function y Componentes"
 import Header from "./Header";
 import Footer from "./Footer";
 
-const App =()=> {
+const NavBar =()=> {
     return(
         <>
         <Header/>
@@ -12,4 +11,4 @@ const App =()=> {
     )   
 }
 
-export default App;
+export default NavBar;
