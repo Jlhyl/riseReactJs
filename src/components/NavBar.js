@@ -1,7 +1,15 @@
-function aplTest (){
-    return<><>
-        <nabvar>
+//const App =()=> "Hola Mundo con JSX, Arrow function y Componentes"
+import Header from "./Header";
+import Footer from "./Footer";
 
-        </nabvar>
-    </><h1> "Usa algo diferente, algo que muestre quien eres." </h1></>
+const App =()=> {
+    return(
+        <>
+        <Header/>
+        <Footer/>
+       
+        </>
+    )   
 }
+
+export default App;
