@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header texto='Bienvenido al nuevo impacto'/>
-    <Main/>
+    <Main/> 
     <ListContainer Saludo = 'Lo escencial del cambio es reconocer que debes transformarte'/>
     <Footer/>
   </React.StrictMode>
