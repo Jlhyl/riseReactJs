@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Header';
+import Main from './Main';
+import Footer from './Footer';
+import ListContainer from './ListContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header texto='Bienvenido al nuevo impacto'/>
+    <Main/>
+    <ListContainer Saludo = 'Lo escencial del cambio es reconocer que debes transformarte'/>
+    <Footer/>
   </React.StrictMode>
 );
 
