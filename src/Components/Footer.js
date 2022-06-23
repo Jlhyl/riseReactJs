@@ -2,7 +2,7 @@
     return (
         <>
         <p>Footer y funcionamiento claro del desafio</p>
-        </>
+          </>
     );
 }
 
