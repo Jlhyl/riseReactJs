@@ -1,9 +1,13 @@
- const Footer = (greeting)=> {
+import Nav from './Nav';
+const Footer = ()=> {
     return (
         <>
-        <p>Footer y funcionamiento claro del desafio</p>
+        <footer>
+            <p>Copyright &copy;</p>
+            <Nav inHeader={false}/> 
+        </footer>
         </>
-    );
+    )
 }
 
  export default Footer 

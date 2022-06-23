@@ -1,5 +1,5 @@
 
-const ItemListContainer =(greeting) => {
+const ItemListContainer =() => {
     return (
         <>
             <h1> Esta es la lista contenedora</h1>
