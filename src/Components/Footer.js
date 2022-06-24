@@ -3,8 +3,8 @@ const Footer = ()=> {
     return (
         <>
         <footer>
-            <p>Copyright &copy;</p>
             <Nav inHeader={false}/> 
+            <p>Copyright &copy;</p>
         </footer>
         </>
     )

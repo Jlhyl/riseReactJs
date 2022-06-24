@@ -7,8 +7,9 @@ const Nav =(get) => {
         return (
             <nav>
                 <a href="#">Ingreso a Plataforma</a>
-                <p></p>
+                <p>access</p>
                 <a href="#">Contactos  </a>
+                <p>contacts</p>
                 <CarWidget/>
             </nav>
         )
@@ -18,7 +19,7 @@ const Nav =(get) => {
          return(
          <nav>
              <a href="#">Instagram</a>
-             <p></p>
+           
              <a href="#">Facebook </a>
          </nav>
          )

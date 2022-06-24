@@ -4,6 +4,7 @@ const Header = () => {
       <>
       <header>
         <h1> Revoluciona tú Mente</h1>
+        <p></p>
         <p>Dale sin miedo, no estás solo.</p>
         <Nav inHeader={true}/>
       </header>
