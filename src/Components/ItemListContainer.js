@@ -1,10 +1,14 @@
+import ItemCount from "./ItemCount"
+
 
 const ItemListContainer =() => {
-    return (
+    
+        return (
         <>
-            <h1> Esta es la lista contenedora</h1>
-            <p></p>
-            <p>Probando el funcionamiento.</p>
+            <h1> Productos disponibles</h1>
+           
+            <ItemCount/>
+           <p>Recuerda siempre disfrutar tu vida y nuestros productos</p>
         </>
     )
 }

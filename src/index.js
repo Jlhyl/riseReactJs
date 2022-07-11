@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import ItemListContainer from './Components/ItemListContainer';
 import Nav from './Components/Nav';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

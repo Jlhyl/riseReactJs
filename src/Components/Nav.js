@@ -1,23 +1,25 @@
 import CarWidget from './CarWidget'
 
-const Nav =(get) => {
-    console.log(get.inHeader)
+const Nav =({inHeader, cabecera, laClase} ) => {
+    // console.log(get)
+    // console.log(get.inHeader)
+    // console.log(get.cabecera)
 
-    if(get.inHeader === true){
+    if(inHeader === true){
         return (
-            <nav>
+            <nav className={laClase}  >
                 <a href="#">Ingreso a Plataforma</a>
-                <p>access</p>
+                <p></p>
                 <a href="#">Contactos  </a>
-                <p>contacts</p>
+                <p></p>
                 <CarWidget/>
             </nav>
         )
     }
-    else if (get.inHeader === false) {
+    else if (inHeader === false) {
         
          return(
-         <nav>
+         <nav className={laClase} >
              <a href="#">Instagram</a>
            
              <a href="#">Facebook </a>
