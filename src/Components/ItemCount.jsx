@@ -26,6 +26,7 @@ const ItemCount =() => {
             <button onClick={aumentaContador}>Uno más</button>
             <button onClick={disminuyeContador}>Quitale uno :D</button>
             <p>Listo para confirmar?.</p>
+            <button>Confirmación de Compra</button>
             
         </>
     )
